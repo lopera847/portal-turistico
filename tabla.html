@@ -2,26 +2,22 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<meta name="description" content="Tabla de destinos turísticos">
-<meta name="keywords" content="tabla, turismo, Colombia">
+<meta name="viewport">
+<meta name="description" content="Tabla">
+<meta name="keywords">
 <meta name="author" content="Juan Manuel">
+<meta property="og:title">
+<meta property="og:description">
 
-<!-- Open Graph -->
-<meta property="og:title" content="Tabla de destinos">
-<meta property="og:description" content="Consulta precios y características de destinos turísticos">
-
-<title>Tabla de Destinos</title>
+<title>Tabla</title>
 
 <link rel="stylesheet" href="css/style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
 
-<header>
-<h1>📊 Tabla de Destinos</h1>
-</header>
+<header><h1>Tabla</h1></header>
 
 <nav>
 <a href="index.html">Inicio</a>
@@ -31,76 +27,36 @@
 <a href="contacto.html">Contacto</a>
 </nav>
 
-<main>
+<main class="container">
 
 <section>
-<h2>Información Destinos Turisticos</h2>
 
-<table>
-
+<table class="table">
 <thead>
-<tr>
-<th>Destino</th>
-<th>Precio Aproximado</th>
-<th>Días</th>
-<th>Clima</th>
-</tr>
+<tr><th>Destino</th><th>Precio</th><th>Días</th><th>Clima</th></tr>
 </thead>
 
 <tbody>
-
-<tr>
-<td>Cartagena</td>
-<td>$800.000</td>
-<td>3</td>
-<td>Caliente</td>
-</tr>
-
-<tr>
-<td>Medellín</td>
-<td>$500.000</td>
-<td>4</td>
-<td>Templado</td>
-</tr>
-
-<tr>
-<td>San Andrés</td>
-<td>$1.200.000</td>
-<td>5</td>
-<td>Tropical</td>
-</tr>
-
-<tr>
-<td>Santa Marta</td>
-<td>$700.000</td>
-<td>3</td>
-<td>Caliente</td>
-</tr>
-
-<tr>
-<td>Eje Cafetero</td>
-<td>$600.000</td>
-<td>4</td>
-<td>Templado</td>
-</tr>
-
+<tr><td>Cartagena</td><td>800k</td><td>3</td><td>Caliente</td></tr>
+<tr><td>Medellín</td><td>500k</td><td>4</td><td>Templado</td></tr>
+<tr><td>San Andrés</td><td>1.2M</td><td>5</td><td>Tropical</td></tr>
+<tr><td>Santa Marta</td><td>700k</td><td>3</td><td>Caliente</td></tr>
+<tr><td>Eje Cafetero</td><td>600k</td><td>4</td><td>Templado</td></tr>
+<tr><td>Bogotá</td><td>900k</td><td>4</td><td>Templado</td></tr>
 </tbody>
 
 <tfoot>
-<tr>
-<td colspan="4">*Precios aproximados sujetos a cambios</td>
-</tr>
+<tr><td colspan="4">Precios aproximados</td></tr>
 </tfoot>
 
 </table>
 
 </section>
 
+
 </main>
 
-<footer>
-<p>© 2026 Turismo Colombia</p>
-</footer>
+<footer><p>© 2026</p></footer>
 
 </body>
 </html>
